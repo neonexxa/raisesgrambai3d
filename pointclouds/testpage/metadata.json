@@ -1,0 +1,131 @@
+{
+	"version": "2.0",
+	"name": "SgRambai",
+	"description": "",
+	"points": 1953374,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 462, 
+		"stepSize": 4, 
+		"depth": 12
+	},
+	"offset": [101.61877426, 3.0495022899999999, 25.492000000000001],
+	"scale": [1e-08, 1e-08, 0.001],
+	"spacing": 0.28090625000000002,
+	"boundingBox": {
+		"min": [101.61877426, 3.0495022899999999, 25.492000000000001], 
+		"max": [137.57477426, 39.005502290000003, 61.448000000000008]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [101.61877426, 3.0495022899999999, 25.492000000000001],
+			"max": [101.61982446, 3.0510970199999998, 61.448]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [514],
+			"max": [57568]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 771, 0],
+			"max": [62708, 58596, 57054]
+		},{
+			"name": "normal x",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "int8",
+			"min": [-126],
+			"max": [126]
+		},{
+			"name": "normal y",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "int8",
+			"min": [-126],
+			"max": [126]
+		},{
+			"name": "normal z",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "int8",
+			"min": [-100],
+			"max": [126]
+		}
+	]
+}
